@@ -7,5 +7,12 @@ cask :v1 => 'xonotic' do
   homepage 'http://www.xonotic.org/'
   license :gpl
 
+  if OS.linux?
+    # On linux, x11 driver is needed by the windowing and clipboard code
+    depends_on "sdl" => "with-x11"
+  else
+    depends_on "sdl"
+  end
+
   suite 'Xonotic'
 end
