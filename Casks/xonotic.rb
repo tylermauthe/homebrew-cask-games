@@ -7,7 +7,7 @@ cask :v1 => 'xonotic' do
   homepage 'http://www.xonotic.org/'
   license :gpl
 
-  depends_on :formula => "sdl"
+  depends_on :formula => 'sdl2'
 
   suite 'Xonotic'
 end
