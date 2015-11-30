@@ -1,6 +1,6 @@
 cask :v1 => 'xonotic' do
-  version '0.8.0'
-  sha256 '0a87c808827a8b234f2324b468ecb643aa48a6fd43322a29e616610dca316370'
+  version '0.8.1'
+  sha256 'be8bcc41e2993a2f26d4d04c65a7eab810443bd98b11b45e482ffdbbf284c46f'
 
   url "http://dl.xonotic.org/xonotic-#{version}.zip"
   name 'Xonotic'
