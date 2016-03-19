@@ -1,4 +1,4 @@
-cask :v1 => 'xonotic' do
+cask 'xonotic' do
   version '0.8.1'
   sha256 'be8bcc41e2993a2f26d4d04c65a7eab810443bd98b11b45e482ffdbbf284c46f'
 
