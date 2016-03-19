@@ -6,7 +6,7 @@ Casks with binary distributed games.
 
 After you install homebrew-cask, run the following command:
 ```
-$ brew tap pr0d1r2/cask-games
+$ brew tap tylermauthe/cask-games
 ```
 
 You can now install games.
